@@ -26,6 +26,7 @@ int main() {
     std::cout<<'\n'<<e.minimum(0, 12);
     std::cout<<"\n----\n";
 
+
     double* arr = new double[3];
     arr[0] = 2;
     arr[1] = 2;
@@ -33,6 +34,7 @@ int main() {
     Polynom pol(3, arr);
     pol.printType();
     std::cout<<'\n'<<pol.value(2);
-    std::cout<<'\n'<<pol.maximum(1, 3);
-    std::cout<<'\n'<<pol.minimum(1, 3);
+    //doesn't work
+    //std::cout<<'\n'<<pol.maximum(1, 3);
+    //std::cout<<'\n'<<pol.minimum(1, 3);
 }
